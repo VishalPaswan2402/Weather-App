@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="heading">Weather Forecast Website </p>
+    <div id="box">
+        <input id="search" type="tex" placeholder="Enter City Name Here">
+        <div class="go">
+            <button id="find">Search</button>
+        </div>
+        <div class="noValue">
+            <p class="noEntered">Please Enter City Name First.</p>
+        </div>
+        <div class="err">
+            <p class="error">Invalid City Name , Enter It Correctly.</p>
+        </div>
+        <div class="weather">
+            <img src="cloudy.png" class="weatherIcon">
+            <p class="temp font"></p>
+            <p class="place font"></p>
+            <div class="details">
+                <div class="col">
+                    <img src="4005754.png" class="hum">
+                    <div class="text">
+                         <p>Humidity</p>
+                        <p class="humid"></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="pressure2.png" class="hum">
+                    <div class="text">
+                         <p>Pressure</p>
+                        <p class="pres"></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="1247767.png" class="hum">
+                    <div class="text">
+                        <p>Wind Speed</p>
+                        <p class="wind"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="foot">
+        <p>This site is designed and created by Vishal Paswan.</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
